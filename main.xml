@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="5" version="1.0" version_name="Godot Engine v1.0.3917-beta1">
+	<ext_resource path="res://images/background.*" type="Texture"></ext_resource>
+	<ext_resource path="res://newgame.*" type="Script"></ext_resource>
+	<ext_resource path="res://images/splash.*" type="Texture"></ext_resource>
+	<ext_resource path="res://name.*" type="Script"></ext_resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "names" </string>
+			<string_array  len="60">
+				<string> "main" </string>
+				<string> "Container" </string>
+				<string> "visibility/visible" </string>
+				<string> "visibility/opacity" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "visibility/on_top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus_neighbour/left" </string>
+				<string> "focus_neighbour/top" </string>
+				<string> "focus_neighbour/right" </string>
+				<string> "focus_neighbour/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "size_flags/vertical" </string>
+				<string> "size_flags/stretch_ratio" </string>
+				<string> "__meta__" </string>
+				<string> "intro" </string>
+				<string> "TextureFrame" </string>
+				<string> "texture" </string>
+				<string> "modulate" </string>
+				<string> "expand" </string>
+				<string> "splash" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "newgame" </string>
+				<string> "Button" </string>
+				<string> "disabled" </string>
+				<string> "toggle_mode" </string>
+				<string> "click_on_press" </string>
+				<string> "text" </string>
+				<string> "icon" </string>
+				<string> "flat" </string>
+				<string> "clip_text" </string>
+				<string> "align" </string>
+				<string> "script/script" </string>
+				<string> "contgame" </string>
+				<string> "name" </string>
+				<string> "Panel" </string>
+				<string> "VBoxContainer" </string>
+				<string> "Label" </string>
+				<string> "range/min" </string>
+				<string> "range/max" </string>
+				<string> "range/step" </string>
+				<string> "range/page" </string>
+				<string> "range/value" </string>
+				<string> "range/exp_edit" </string>
+				<string> "rounded_values" </string>
+				<string> "valign" </string>
+				<string> "autowrap" </string>
+				<string> "uppercase" </string>
+				<string> "percent_visible" </string>
+				<string> "username" </string>
+				<string> "LineEdit" </string>
+				<string> "max_length" </string>
+				<string> "editable" </string>
+				<string> "secret" </string>
+				<string> "VBoxContainer 2" </string>
+				<string> "breweryname" </string>
+			</string_array>
+			<string> "version" </string>
+			<int> 1 </int>
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "node_count" </string>
+			<int> 13 </int>
+			<string> "variants" </string>
+			<array  len="45" shared="false">
+				<bool> True </bool>
+				<real> 1 </real>
+				<real> 800 </real>
+				<real> 600 </real>
+				<node_path> "" </node_path>
+				<int> 2 </int>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 3 </int>
+							<string> "sources" </string>
+							<array  len="4" shared="false">
+								<string> "res://newgame.gd" </string>
+								<string> "res://name.gd" </string>
+								<string> "res://brewery.gd" </string>
+								<string> "res://global.gd" </string>
+							</array>
+						</dictionary>
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "pixel_snap" </string>
+							<bool> False </bool>
+							<string> "zoom" </string>
+							<real> 1.227738 </real>
+							<string> "ofs" </string>
+							<vector2> -546.812, -34.3767 </vector2>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+							</array>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+				</dictionary>
+				<real> 40 </real>
+				<resource  resource_type="Texture" path="res://images/background.*">  </resource>
+				<color> 1, 1, 1, 1 </color>
+				<bool> False </bool>
+				<real> 200 </real>
+				<real> 150 </real>
+				<real> 450 </real>
+				<resource  resource_type="Texture" path="res://images/splash.*">  </resource>
+				<real> 24 </real>
+				<real> 218 </real>
+				<real> 161 </real>
+				<real> 277 </real>
+				<string> "New Game" </string>
+				<resource name=""></resource>				<int> 1 </int>
+				<resource  resource_type="Script" path="res://newgame.*">  </resource>
+				<real> 231 </real>
+				<real> 368 </real>
+				<string> "Continue Game" </string>
+				<real> 50 </real>
+				<real> 396 </real>
+				<real> 88 </real>
+				<real> 13 </real>
+				<real> 0 </real>
+				<string> "Welcome brew master!  What is your name?" </string>
+				<int> 0 </int>
+				<real> -1 </real>
+				<real> 17 </real>
+				<real> 38 </real>
+				<string> "" </string>
+				<real> 400 </real>
+				<real> 190 </real>
+				<string> "Brewery namee?" </string>
+				<real> 138 </real>
+				<real> 252 </real>
+				<real> 257 </real>
+				<string> "Ready to Brew!" </string>
+				<resource  resource_type="Script" path="res://name.*">  </resource>
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="639"> 				-1, -1, 1, 0, -1, 16, 2, 0, 3, 1, 4, 1, 5, 0, 6, 2, 7, 3, 8, 4, 9, 4, 10, 4, 11, 4, 12, 0, 13, 0, 14, 5, 15, 5, 16, 1, 17, 6, 0, 0, 0, 19, 18, -1, 18, 2, 0, 3, 1, 4, 1, 5, 0, 6, 7, 7, 7, 8, 4, 9, 4, 10, 4, 11, 4, 12, 0, 13, 0, 14, 5, 15, 5, 16, 1, 20, 8, 21, 9, 22, 10, 0, 1, 0, 19, 23, -1, 20, 2, 0, 3, 1, 4, 1, 5, 0, 24, 11, 25, 12, 6, 3, 7, 13, 8, 4, 9, 4, 10, 4, 11, 4, 12, 0, 13, 0, 14, 5, 15, 5, 16, 1, 20, 14, 21, 9, 22, 10, 0, 2, 0, 27, 26, -1, 26, 2, 0, 3, 1, 4, 1, 5, 0, 24, 15, 25, 16, 6, 17, 7, 18, 8, 4, 9, 4, 10, 4, 11, 4, 12, 10, 13, 0, 14, 5, 15, 5, 16, 1, 28, 10, 29, 10, 30, 10, 31, 19, 32, 20, 33, 10, 34, 10, 35, 21, 36, 22, 0, 2, 0, 27, 37, -1, 25, 2, 0, 3, 1, 4, 1, 5, 0, 24, 23, 25, 16, 6, 24, 7, 18, 8, 4, 9, 4, 10, 4, 11, 4, 12, 10, 13, 0, 14, 5, 15, 5, 16, 1, 28, 10, 29, 10, 30, 10, 31, 25, 32, 20, 33, 10, 34, 10, 35, 21, 0, 1, 0, 39, 38, -1, 17, 2, 10, 3, 1, 4, 1, 5, 0, 24, 11, 25, 12, 6, 3, 7, 13, 8, 4, 9, 4, 10, 4, 11, 4, 12, 10, 13, 0, 14, 5, 15, 5, 16, 1, 0, 5, 0, 40, 40, -1, 16, 2, 0, 3, 1, 4, 1, 5, 0, 25, 26, 6, 27, 7, 28, 8, 4, 9, 4, 10, 4, 11, 4, 12, 10, 13, 10, 14, 5, 15, 5, 16, 1, 0, 6, 0, 41, 41, -1, 27, 2, 0, 3, 1, 4, 1, 5, 0, 6, 27, 7, 29, 8, 4, 9, 4, 10, 4, 11, 4, 12, 0, 13, 0, 14, 5, 16, 1, 42, 30, 43, 1, 44, 1, 45, 1, 46, 30, 47, 10, 48, 10, 31, 31, 35, 32, 49, 32, 50, 10, 51, 10, 52, 33, 0, 6, 0, 54, 53, -1, 20, 2, 0, 3, 1, 4, 1, 5, 0, 25, 34, 6, 27, 7, 35, 8, 4, 9, 4, 10, 4, 11, 4, 12, 10, 13, 0, 14, 5, 15, 5, 16, 1, 31, 36, 55, 32, 56, 0, 57, 10, 0, 5, 0, 40, 58, -1, 16, 2, 0, 3, 1, 4, 1, 5, 0, 25, 12, 6, 37, 7, 38, 8, 4, 9, 4, 10, 4, 11, 4, 12, 10, 13, 10, 14, 5, 15, 5, 16, 1, 0, 9, 0, 41, 41, -1, 27, 2, 0, 3, 1, 4, 1, 5, 0, 6, 37, 7, 29, 8, 4, 9, 4, 10, 4, 11, 4, 12, 0, 13, 0, 14, 5, 16, 1, 42, 30, 43, 1, 44, 1, 45, 1, 46, 30, 47, 10, 48, 10, 31, 39, 35, 32, 49, 32, 50, 10, 51, 10, 52, 33, 0, 9, 0, 54, 59, -1, 20, 2, 0, 3, 1, 4, 1, 5, 0, 25, 34, 6, 37, 7, 35, 8, 4, 9, 4, 10, 4, 11, 4, 12, 10, 13, 0, 14, 5, 15, 5, 16, 1, 31, 36, 55, 32, 56, 0, 57, 10, 0, 5, 0, 27, 27, -1, 26, 2, 0, 3, 1, 4, 1, 5, 0, 24, 40, 25, 23, 6, 41, 7, 42, 8, 4, 9, 4, 10, 4, 11, 4, 12, 10, 13, 0, 14, 5, 15, 5, 16, 1, 28, 10, 29, 10, 30, 10, 31, 43, 32, 20, 33, 10, 34, 10, 35, 21, 36, 44, 0 </int_array>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
